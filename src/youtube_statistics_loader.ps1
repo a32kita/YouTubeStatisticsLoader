@@ -26,6 +26,7 @@ while ($true) {
 
     # ˆ— (‚•]‰¿”)
     . ./youtube_like_count.ps1
+    . ./youtube_listener_count.ps1
 
     Start-Sleep -Seconds 30
 }
