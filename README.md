@@ -8,7 +8,7 @@ YouTube の高評価の数や同時接続数 (準備中) をリアルタイム�
 1. このリンクから最新版のツールを取得する  
 https://github.com/a32kita/YouTubeStatisticsLoader/archive/refs/heads/master.zip
 1. ZIP ファイルを右クリックし、[ プロパティ (R) ] をクリック
-1. プロパティ ウィンドウ最下部 "セキュリティ: このファイルは他のコンピューターから取得したものです。～～" の横のチェックマークがオンの場合は、オフに変える
+1. プロパティ ウィンドウ最下部 "許可する (K)" のチェックをオンにする
 1. [ OK ] でプロパティ画面を閉じる
 1. ZIP ファイルを任意のディレクトリに展開する
 1. youtube_statistics_loader.ps1 を右クリックし [ PowerShell で実行 ] をクリック
