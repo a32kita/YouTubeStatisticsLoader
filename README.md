@@ -55,6 +55,57 @@ https://github.com/a32kita/YouTubeStatisticsLoader/archive/refs/heads/master.zip
 OBS の設定は本ツールの格納先ディレクトリを変えない限りは初回のみの設定でご利用いただけます。
 
 
-## 3. License
+## 5. Custom CSS Sample
+OBS のブラウザ機能を利用する際、カスタム CSS を設定することでフォントサイズなどを設定できます。
+![スクリーンショット](img/img160311.png)
+
+カスタム CSS 設定例;
+
+### 5 - 1. 色・文字サイズ
+P タグに対して color, font-size を設定することで変更可能です。
+
+下記の例では文字サイズを 48pt, 色を赤 (red) に変えています。
+
+```CSS
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
+p { font-size: 48pt; color: red; }
+```
+
+視聴者数の場合、span.nin に対して追加のスタイルを設定することで単位 (人) だけ文字サイズを小さくしたり非表示にしたりすることが出来ます。
+
+**単位 (人) を小さくする**
+```CSS
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
+p { font-size: 48pt; color: red; }
+span.nin { font-size: 60% }
+```
+
+**単位 (人) を消す**
+```CSS
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
+p { font-size: 48pt; color: red; }
+span.nin { display: none; }
+```
+
+
+### 5 - 2. 縁取り
+P タグに対して text-shadow を指定することで、文字の縁取りの指定ができます。
+
+下記の例では赤 (red) の文字に白 (#FFF) の縁を指定しています。
+
+```CSS
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
+p { font-size: 60pt; color: red;
+  text-shadow:3px 3px 0 #FFF, -3px -3px 0 #FFF,
+              -3px 3px 0 #FFF, 3px -3px 0 #FFF,
+              0px 3px 0 #FFF,  0 -3px 0 #FFF,
+              -3px 0 0 #FFF, 3px 0 0 #FFF; }
+```
+
+
+詳しくは出力される HTML のソースと一般的な CSS のリファレンス サイトをご参照ください。
+
+
+## 4. License
 * 誰でもご自由にお使いいただけます
 * 本ツールの使用により発生したトラブル等につきまして、作者は一切の責任を負いません
