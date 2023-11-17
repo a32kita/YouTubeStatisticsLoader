@@ -6,6 +6,7 @@ YouTube の高評価の数や同時接続数 (準備中) をリアルタイム�
 
 ## 2. How to use
 本ツールはダウンロードの上、お手元の Windows 環境で実行して頂く必要があります。
+実行中、HTML ファイルが出力されますため、そちらを OBS へ取り込んでご活用いただけます。
 
 ### 2 - 1. Download
 1. このリンクから最新版のツールを取得する  
@@ -55,7 +56,7 @@ https://github.com/a32kita/YouTubeStatisticsLoader/archive/refs/heads/master.zip
 OBS の設定は本ツールの格納先ディレクトリを変えない限りは初回のみの設定でご利用いただけます。
 
 
-## 5. Custom CSS Sample
+## 5. Custom CSS Samples
 OBS のブラウザ機能を利用する際、プロパティからカスタム CSS を設定することでフォントサイズなどを設定できます。
 ![スクリーンショット](img/img160311.png)
 
