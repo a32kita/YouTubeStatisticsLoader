@@ -7,12 +7,16 @@ YouTube の高評価の数や同時接続数 (準備中) をリアルタイム�
 ### How to use
 1. このリンクから最新版のツールを取得する  
 https://github.com/a32kita/YouTubeStatisticsLoader/archive/refs/heads/master.zip
-1. ZIP ファイルを右クリックし、[ プロパティ (R) ] をクリック
-1. プロパティ ウィンドウ最下部 "許可する (K)" のチェックをオンにする
+1. ZIP ファイルを右クリックし、[ プロパティ (R) ] をクリック  
+![スクリーンショット](img/img142201.png)
+1. プロパティ ウィンドウ最下部 "許可する (K)" のチェックをオンにする  
+![スクリーンショット](img/img142231.png)
 1. [ OK ] でプロパティ画面を閉じる
 1. ZIP ファイルを任意のディレクトリに展開する
-1. youtube_statistics_loader.ps1 を右クリックし [ PowerShell で実行 ] をクリック
-1. 視聴ページの URL を指定してください; (例: https://www.youtube.com/watch?v=XX) の次の行に視聴ページの URL を貼り付ける
+1. youtube_statistics_loader.bat をクリックして実行する  
+![スクリーンショット](img/img142235.png)
+1. 視聴ページの URL を指定してください; (例: https://www.youtube.com/watch?v=XX) の次の行に視聴ページの URL を貼り付ける  
+![スクリーンショット](img/img142255.png)
 1. [ Enter ] キーを押下する
 
 数秒後に同じディレクトリ内に "youtube_like_count.html" (現在の高評価数), "youtube_listener_count.html" (現在の視聴者数) というファイルが出力されます。
