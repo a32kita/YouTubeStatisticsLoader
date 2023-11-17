@@ -43,6 +43,7 @@ https://github.com/a32kita/YouTubeStatisticsLoader/archive/refs/heads/master.zip
 1. [ 新規作成 ] を選択し、任意の名前を入力し [ OK ] を押下する  
 ![スクリーンショット](img/img151401.png)
 1. プロパティ画面で下記の値を設定する
+
 | 項目名 | 設定値 |
 | - | - |
 | ローカルファイル (チェック) | オン |
