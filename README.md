@@ -50,6 +50,7 @@ https://github.com/a32kita/YouTubeStatisticsLoader/archive/refs/heads/master.zip
 | ローカルファイル | [ 参照 ] ボタンを押下し、手順 2 - 2 - 1 (プログラムの実行) 後に出力される *.html ファイルを選択<br/>※視聴者数なら youtube_listener_count.html |
 | 幅・高さ | 200 x 100 程度で設定し、見切れなどに応じて調整してください |
 | カスタム CSS | フォント サイズや文字装飾などを設定できます (後述の例を参照) |
+
 ![スクリーンショット](img/img151622.png)  
 OBS の設定は本ツールの格納先ディレクトリを変えない限りは初回のみの設定でご利用いただけます。
 
