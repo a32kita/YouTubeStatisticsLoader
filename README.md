@@ -1,13 +1,13 @@
-## シンプル YouTube リアルタイム統計情報ローダー for OBS
+# シンプル YouTube リアルタイム統計情報ローダー for OBS
 
-### 1. What's this?
+## 1. What's this?
 YouTube の高評価の数や同時接続数 (準備中) をリアルタイムでシンプルな HTML ファイルに抽出するツールです。  
 このツールを DL して起動し、視聴ページの URL を指定するだけで 35 秒ぐらいおきに最新の情報を取得します。
 
-### 2. How to use
+## 2. How to use
 本ツールはダウンロードの上、お手元の Windows 環境で実行して頂く必要があります。
 
-#### 2 - 1. Download
+### 2 - 1. Download
 1. このリンクから最新版のツールを取得する  
 https://github.com/a32kita/YouTubeStatisticsLoader/archive/refs/heads/master.zip
 1. ZIP ファイルを右クリックし、[ プロパティ (R) ] をクリック  
@@ -17,7 +17,7 @@ https://github.com/a32kita/YouTubeStatisticsLoader/archive/refs/heads/master.zip
 1. [ OK ] でプロパティ画面を閉じる
 1. ZIP ファイルを任意のディレクトリに展開する
 
-#### 2 - 2. Execute
+### 2 - 2. Execute
 1. youtube_statistics_loader.bat をクリックして実行する  
 ![スクリーンショット](img/img142235.png)
 1. 視聴ページの URL を指定してください; (例: https://www.youtube.com/watch?v=XX) の次の行に視聴ページの URL を貼り付ける  
@@ -34,7 +34,7 @@ https://github.com/a32kita/YouTubeStatisticsLoader/archive/refs/heads/master.zip
 これらのファイルを OBS で投影することで、最新の高評価数、視聴者数を配信画面に載せることができます。
 
 
-#### 2 - 3. OBS
+### 2 - 3. OBS
 1. OBS を開く
 1. 本ツールで取得した情報を表示したいシーンを開く  
 ![スクリーンショット](img/img151202.png)
@@ -55,6 +55,6 @@ https://github.com/a32kita/YouTubeStatisticsLoader/archive/refs/heads/master.zip
 OBS の設定は本ツールの格納先ディレクトリを変えない限りは初回のみの設定でご利用いただけます。
 
 
-### 3. License
+## 3. License
 * 誰でもご自由にお使いいただけます
 * 本ツールの使用により発生したトラブル等につきまして、作者は一切の責任を負いません
